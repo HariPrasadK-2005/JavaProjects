@@ -32,6 +32,7 @@ public class SmartCalculator {
 
             if (op.equals("quit")) {
                 System.out.println("Good Bye !");
+                sc.close();
                 break;
             }
 
@@ -40,6 +41,7 @@ public class SmartCalculator {
 
             System.out.println("Enter the 2nd Number: ");
             double b = sc.nextDouble();
+            
 
             double result=0;
 
