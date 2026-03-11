@@ -42,5 +42,6 @@ public class HelloWorld{
         else{
             System.out.println("Grade F - Don't Giveup");
         }
+        sc.close();
     }
 }

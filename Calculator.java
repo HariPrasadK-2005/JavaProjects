@@ -12,6 +12,7 @@ public class Calculator {
         System.out.println("Select operation: + - * / ");
         System.out.println("Enter your choice: ");
         String op=sc.next();
+        sc.close();
         double result;
 
         if (op.equals("+")) {
@@ -31,5 +32,6 @@ public class Calculator {
             return;
         }
         System.out.println("Answer: "+result);
+        
     }
 }
